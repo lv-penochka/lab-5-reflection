@@ -4,14 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81cdf1fa-7399-4dd3-a2fb-2002f6756990" name="Changes" comment="" />
+    <list default="true" id="81cdf1fa-7399-4dd3-a2fb-2002f6756990" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AutoInjectable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AutoInjectable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Injector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Injector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OtherImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OtherImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SODoer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SODoer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SomeBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SomeBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SomeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SomeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SomeInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SomeInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SomeOtherInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SomeOtherInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/example.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/example.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/InjectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/InjectorTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -26,9 +54,123 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/tutme/prja/reflection/src/main/resources"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tutme\prja\reflection\src\main\resources" />
+      <recent name="C:\Users\tutme\prja\reflection\src\main\java\org\example" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.InjectorTest.test_injectionInvalidFile">
+    <configuration name="InjectorTest.inject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="reflection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.InjectorTest" />
+      <option name="METHOD_NAME" value="inject" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InjectorTest.testCreateInstance_WithInvalidFile_ShouldThrowRuntimeException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="reflection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.InjectorTest" />
+      <option name="METHOD_NAME" value="testCreateInstance_WithInvalidFile_ShouldThrowRuntimeException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InjectorTest.testDependenciesAfterInjection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="reflection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.InjectorTest" />
+      <option name="METHOD_NAME" value="testDependenciesAfterInjection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InjectorTest.testInjectionInvalidFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="reflection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.InjectorTest" />
+      <option name="METHOD_NAME" value="testInjectionInvalidFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InjectorTest.test_injectionInvalidFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="reflection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.InjectorTest" />
+      <option name="METHOD_NAME" value="test_injectionInvalidFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.InjectorTest.test_injectionInvalidFile" />
+        <item itemvalue="JUnit.InjectorTest.testInjectionInvalidFile" />
+        <item itemvalue="JUnit.InjectorTest.testCreateInstance_WithInvalidFile_ShouldThrowRuntimeException" />
+        <item itemvalue="JUnit.InjectorTest.testDependenciesAfterInjection" />
+        <item itemvalue="JUnit.InjectorTest.inject" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
